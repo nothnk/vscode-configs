@@ -1,0 +1,9 @@
+// Place your settings in this file to overwrite the default settings
+{
+    // Indicate the full Code app path
+    
+    //-------- Project Manager Configuration -------- 
+    // https://github.com/alefragnani/vscode-project-manager
+    "projectManager.codePath": "com.microsoft.VSCode"
+    ,  "projectManager.useAlternativeMacOSXPath": true
+}

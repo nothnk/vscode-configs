@@ -1,0 +1,39 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+   
+  //Remove line active
+  {
+    "key": "cmd+d",
+    "command": "editor.action.deleteLines",
+    "when": "editorTextFocus"
+  }
+  //duplicate lines
+  ,{ "key": "alt+cmd+down",        
+     "command": "editor.action.copyLinesDownAction",
+     "when": "editorTextFocus" 
+  }
+  ,{ "key": "alt+cmd+up",
+     "command": "editor.action.copyLinesUpAction",
+     "when": "editorTextFocus" 
+   }
+   // Extensions
+   
+   // htmlTagWrap https://github.com/Microsoft/vscode-htmltagwrap
+   ,{ "key": "cmd+t",
+      "command": "extension.htmlTagWrap",
+      "when": "editorTextFocus" 
+    }
+    
+    // vscode-change-case https://github.com/wmaurer/vscode-change-case
+    //upercase
+   ,{ "key": "cmd+u",
+      "command": "extension.changeCase.upper",
+      "when": "editorTextFocus" 
+    }
+    //lowercase
+    ,{ "key": "cmd+l",
+      "command": "extension.changeCase.lower",
+      "when": "editorTextFocus" 
+    }
+ 
+]
