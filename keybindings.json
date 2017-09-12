@@ -1,7 +1,24 @@
 // Place your key bindings in this file to overwrite the defaults
 [
-   
-  //Remove line active
+  // Open recent projects
+  {
+     "key": "alt+cmd+p",
+     "command": "workbench.action.openRecent"
+  },
+  {
+     "key": "ctrl+r",
+     "command": "-workbench.action.openRecent"
+  },
+  // Open terminal
+  {
+     "key": "alt+cmd+t",
+     "command": "workbench.action.terminal.toggleTerminal"
+  },
+  {
+     "key": "ctrl+alt+t",
+     "command": "-workbench.action.terminal.toggleTerminal"
+  },
+  // Remove line active
   {
     "key": "cmd+d",
     "command": "editor.action.deleteLines",
